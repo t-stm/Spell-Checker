@@ -6,7 +6,6 @@
 #include <stdbool.h>
 
 // Maximum length for a word
-// (e.g., pneumonoultramicroscopicsilicovolcanoconiosis)
 #define LENGTH 45
 
 // Prototypes
@@ -16,4 +15,4 @@ bool load(const char *dictionary);
 unsigned int size(void);
 bool unload(void);
 
-#endif // DICTIONARY_H
+#endif
